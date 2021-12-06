@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.authors = 'Google'
 
   spec.prepare_command = File.read("../scripts/ios-configure-glog.sh")
-  spec.source = { :git => 'https://github.com/shisanshu101/YLBoost'}
+  spec.source = { :git => 'https://github.com/shisanshu101/YLGlog'}
   spec.module_name = 'glog'
   spec.header_dir = 'glog'
   spec.source_files = 'src/glog/*.h',
