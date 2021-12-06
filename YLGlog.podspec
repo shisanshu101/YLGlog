@@ -5,13 +5,13 @@
 
 Pod::Spec.new do |spec|
   spec.name = 'glog'
-  spec.version = '0.3.4'
+  spec.version = '0.3.5'
   spec.license = { :type => 'Google', :file => 'COPYING' }
   spec.homepage = 'https://github.com/shisanshu101/YLGlog'
   spec.summary = 'Google logging module'
   spec.authors = 'Google'
 
-  # spec.prepare_command = File.read("../scripts/ios-configure-glog.sh")
+  spec.prepare_command = File.read("scripts/ios-configure-glog.sh")
   spec.source = { :git => 'git@github.com:shisanshu101/YLGlog.git'}
   spec.module_name = 'glog'
   spec.header_dir = 'glog'
